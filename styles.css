@@ -1,22 +1,21 @@
 /*  your css code here. If applicable */
-  *{
-    padding: 0;
-    margin: 0;
-    
+.testimonial-section {
+    padding: 40px;
+    background-color: #f5f5f5;
   }
-.Main-Container{
-  background-color: #f5f5f5;
-  padding: 22px 20px 10px ;
-  margin: 10px;
-  border-radius: 2px;
-}
-
-.cont{
-  box-shadow: 1px 0.4;
-  border-radius: 3px;
-  width: 800px;
-  padding: 13px;
-  background-color: white;
-  margin: 11px;
-
-}
+  
+  .testimonial {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  .testimonial-text {
+    margin: 0;
+  }
+  
+  .testimonial-author {
+    margin: 0;
+    text-align: right;
+    font-style: italic;
+  }
